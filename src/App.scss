@@ -253,6 +253,7 @@ body {
 .pricing-box:nth-child(1) {
   margin-right: 1.25rem;
   width: calc(33% - 10px);
+  min-width: 340px;
 }
 .pricing-box:nth-child(2) {
   width: calc(67% - 10px);
@@ -436,6 +437,7 @@ body {
   }
 }
 .premium {
+  min-width: 200px;
   grid-column: 3;
   p {
     margin-bottom: 0;
