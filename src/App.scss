@@ -344,22 +344,35 @@ body {
   }
 }
 .sm-box {
+  transform: translate(0, -9.25rem);
+  margin-top: 0.5rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.625rem;
   p:nth-child(1) {
-    font-size: 1.25rem !important;
+    font-size: 1.25rem;
     background: -webkit-linear-gradient(#f3a300, #f07a13);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   p:nth-child(2) {
-    font-size: 1.75rem !important;
     line-height: 1.75rem;
     background-clip: unset;
     background: none;
   }
 }
+.basic {
+  p {
+    margin-bottom: 1.65rem;
+  }
+}
+.flexbox-container {
+  display: flex;
+  justify-content: space-between;
+}
 .part-two-boxlg {
   display: flex;
-  padding: 0;
+  padding: 4.6rem;
   justify-content: flex-end;
   div {
     padding: 1.5rem 5rem;
@@ -380,6 +393,7 @@ body {
   background: -webkit-linear-gradient(#f3a300, #f07a13) !important;
 }
 .lg-button {
+  margin-right: 0;
   border: 1px solid #ee8c19 !important;
   color: #ee8c19 !important;
   background: transparent;
@@ -390,11 +404,59 @@ body {
 .sm-box-list {
   height: calc(100% - 19.125rem);
   display: flex;
-  padding-top: 0rem;
+  padding-top: 2rem;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-
+.join-apps-box {
+  padding-bottom: 1.5rem;
+  p {
+    margin-bottom: 1rem !important;
+  }
+}
+.premium {
+  padding-right: 2rem;
+  p {
+    margin-bottom: 0;
+  }
+}
+.checkmark-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .checkmark:nth-child(1) {
+    margin-top: 1.75rem !important;
+  }
+  .checkmark:nth-child(n + 1) {
+    margin-top: 1.25rem;
+  }
+  span {
+    margin-right: 0 !important;
+  }
+}
+.times {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c3c3c3;
+}
+#hall {
+  padding-left: 0.5rem;
+  border-radius: 7px;
+  margin-bottom: 0.5rem;
+  border: 1px solid black;
+  outline: none;
+  width: 8rem;
+  height: 2rem;
+  font-size: 16px;
+  text-align: center;
+}
+.sale-span {
+  font-size: 0.95rem;
+  color: #2fa600;
+}
 @media (min-width: 1450px) {
   .wider {
     max-width: 1450px !important;
