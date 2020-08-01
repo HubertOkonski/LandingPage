@@ -11,41 +11,12 @@ function PricingBoxLg() {
         </span>
         <Phone />
       </div>
-      <div className="pricing-box-header part-two-pricing part-two-boxlg"></div>
-      <div className="flexbox-container">
-        <div className="list-container">
-          <ul>
-            <li>Lorem ipsum</li>
-            <li>dolor sit amet, consectetur</li>
-            <li>adipiscing elit, sed do eiusmod</li>
-            <li>tempor incididunt</li>
-            <li>ut labore et dolore magna aliqua</li>
-            <li>Lorem ipsum</li>
-            <li>Ipsum dolor sit amet</li>
-            <li>ut labore et dolore magna aliqua</li>
-          </ul>
-          <footer className="register-try-box">
-            <div className="buttons-container">
-              <p>Zarejestruj się i wypróbuj!</p>
-              <button className="rg-button">Rejestracja</button>
-              <button className="lg-button">Logowanie</button>
-            </div>
-          </footer>
-        </div>
+      <div className="grid-container">
         <div className="basic sm-box">
           <p>Basic</p>
           <p>
             wersja <br /> darmowa
           </p>
-          <div className="checkmark-container">
-            <Checkmark />
-            <Checkmark />
-            <Checkmark />
-            <Checkmark />
-            <span className="times"> &#215;</span>
-            <span className="times"> &#215;</span>
-            <span className="times"> &#215;</span>
-          </div>
         </div>
         <div className="premium sm-box">
           <p>Premium</p>
@@ -57,20 +28,97 @@ function PricingBoxLg() {
           <p>
             79,99zł <span className="sale-span">- 30% taniej</span>{" "}
           </p>
-          <div className="checkmark-container">
-            <Checkmark />
-            <Checkmark />
-            <Checkmark />
-            <Checkmark />
-            <Checkmark />
-            <Checkmark />
-            <Checkmark />
-            <Checkmark />
-          </div>
         </div>
+        <div className="line-container"></div>
+        <li>Lorem ipsum</li>
+        <div className="checkmark-container checkmark-container-basic">
+          <Checkmark />
+        </div>
+        <div className="checkmark-container checkmark-container-premium">
+          <Checkmark />
+        </div>
+        <li>dolor sit amet, consectetur</li>
+        <div className="checkmark-container checkmark-container-basic">
+          <Checkmark />
+        </div>
+        <div className="checkmark-container checkmark-container-premium">
+          <Checkmark />
+        </div>
+        <li>adipiscing elit, sed do eiusmod</li>
+        <div className="checkmark-container checkmark-container-basic">
+          <Checkmark />
+        </div>
+        <div className="checkmark-container checkmark-container-premium">
+          <Checkmark />
+        </div>
+        <li>tempor incididunt</li>
+        <div className="checkmark-container checkmark-container-basic">
+          <Checkmark />
+        </div>
+        <div className="checkmark-container checkmark-container-premium">
+          <Checkmark />
+        </div>
+        <li>ut labore et dolore magna aliqua</li>
+        <div className="checkmark-container checkmark-container-basic times-container-basic">
+          &#215;
+        </div>
+        <div className="checkmark-container checkmark-container-premium">
+          <Checkmark />
+        </div>
+        <li>Lorem ipsum</li>
+        <div className="checkmark-container checkmark-container-basic times-container-basic">
+          &#215;
+        </div>
+        <div className="checkmark-container checkmark-container-premium">
+          <Checkmark />
+        </div>
+        <li>Ipsum dolor sit amet</li>
+        <div className="checkmark-container checkmark-container-basic times-container-basic">
+          &#215;
+        </div>
+        <div className="checkmark-container checkmark-container-premium">
+          <Checkmark />
+        </div>
+        <li>ut labore et dolore magna aliqua</li>
+        <div className="checkmark-container checkmark-container-basic times-container-basic">
+          &#215;
+        </div>
+        <div className="checkmark-container checkmark-container-premium">
+          <Checkmark />
+        </div>
+      </div>
+      <div className="buttons-container">
+        <p>Zarejestruj się i wypróbuj!</p>
+        <button className="rg-button">Rejestracja</button>
+        <button className="lg-button">Logowanie</button>
       </div>
     </div>
   );
 }
 
 export default PricingBoxLg;
+
+/*
+<div className="list-container">
+          <ul>
+            <li>Lorem ipsum</li>
+            <li>dolor sit amet, consectetur</li>
+            <li>adipiscing elit, sed do eiusmod</li>
+            <li>tempor incididunt</li>
+            <li>ut labore et dolore magna aliqua</li>
+            <li>Lorem ipsum</li>
+            <li>Ipsum dolor sit amet</li>
+            <li>ut labore et dolore magna aliqua</li>
+          </ul>
+        </div>
+
+<footer className="register-try-box">
+            <div className="buttons-container">
+              <p>Zarejestruj się i wypróbuj!</p>
+              <button className="rg-button">Rejestracja</button>
+              <button className="lg-button">Logowanie</button>
+            </div>
+          </footer>
+
+
+        */

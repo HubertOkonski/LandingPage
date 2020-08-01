@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.scss";
+import "./Media.css";
 import Header from "./components/Header";
 import Start from "./components/Start";
 import HowItWorks from "./components/HowItWorks";

@@ -1,0 +1,35 @@
+@media only screen and (max-width: 3550px) {
+  html {
+    font-size: 112.5%;
+  }
+}
+
+@media only screen and (max-width: 2750px) {
+  html {
+    font-size: 106.25%;
+  }
+}
+@media only screen and (max-width: 2150px) {
+  html {
+    font-size: 100%;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  html {
+    font-size: 93.25%;
+  }
+  .hand-img-container img {
+    width: 475px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .hand-img-container img {
+    width: 425px;
+  }
+  html {
+    font-size: 87.5%;
+  }
+  .iphone-svg {
+    width: 220px;
+  }
+}
