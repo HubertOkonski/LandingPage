@@ -51,6 +51,7 @@ body {
 .buttons-container {
   padding: 2.5rem 2rem;
   p {
+    margin-bottom: 2rem;
     font-size: 1.25rem;
     font-weight: 700;
   }
@@ -155,6 +156,12 @@ body {
   position: relative;
   display: flex;
 }
+.iphone1 {
+  svg {
+    margin-left: 1rem;
+  }
+}
+
 .iphone2 {
   transform: translate(0, 10rem);
   flex-direction: row-reverse;
@@ -174,6 +181,9 @@ body {
     right: 0rem;
     top: -9rem;
   }
+  svg {
+    margin-right: 1rem;
+  }
 }
 .iphone4 {
   padding-top: 14rem;
@@ -189,6 +199,7 @@ body {
     transform: translate(-7rem, -3rem);
   }
 }
+
 .how-it-works-flow {
   padding: 4rem 0;
 }
@@ -209,7 +220,6 @@ body {
 }
 .hiw-text {
   width: 50%;
-  padding: 0 2rem;
   margin: 0 auto;
   span {
     font-size: 4.375rem;
@@ -411,6 +421,7 @@ body {
   }
 }
 .rg-button {
+  margin-right: 1rem !important;
   color: white !important;
   background: -webkit-linear-gradient(#f3a300, #f07a13) !important;
 }
@@ -431,7 +442,7 @@ body {
   justify-content: space-between;
 }
 .join-apps-box {
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.75rem;
   p {
     margin-bottom: 1rem !important;
   }
@@ -442,6 +453,75 @@ body {
   p {
     margin-bottom: 0;
   }
+}
+.mobile-menu {
+  display: none;
+}
+.bar1,
+.bar2,
+.bar3 {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: background-color 0.4s, transform 0.4s;
+}
+.change {
+  position: fixed !important;
+  top: 1rem !important;
+  right: 1rem !important;
+}
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-4px, 5px);
+  transform: rotate(-45deg) translate(-4px, 5px);
+  background-color: black;
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-7px, -8px);
+  transform: rotate(45deg) translate(-7px, -8px);
+  background-color: black;
+}
+.mobile-menu {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.mobile-menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.95);
+  z-index: 98;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ul {
+    padding: 0;
+  }
+  li {
+    text-align: center;
+    padding: 1.25rem 0;
+    list-style: none;
+    font-size: 1.5rem;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+.menu-trigger {
+  position: absolute;
+  top: 0rem;
+  z-index: 99;
+  right: 0;
 }
 .checkmark-container {
   display: flex;
@@ -487,9 +567,46 @@ body {
   font-size: 16px;
   text-align: center;
 }
+.hidden {
+  display: none;
+}
 .sale-span {
   font-size: 0.95rem;
   color: #2fa600;
+}
+.modal-input {
+  display: flex;
+  padding: 0.25rem 1rem;
+  justify-content: space-between;
+  align-items: center;
+  input {
+    width: 100%;
+    max-width: 350px;
+    margin-left: 10px;
+  }
+}
+.modal-title {
+  background: -webkit-linear-gradient(#f3a300, #f07a13);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.modal-body {
+  padding: 0;
+  padding-top: 1rem !important;
+}
+.modal-button {
+  background: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+.modal-button-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  button {
+    outline: none;
+  }
 }
 @media (min-width: 1450px) {
   .wider {

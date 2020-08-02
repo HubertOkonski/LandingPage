@@ -20,7 +20,7 @@ function PricingBoxLg() {
         </div>
         <div className="premium sm-box">
           <p>Premium</p>
-          <select name="hall" id="hall" value="0">
+          <select name="hall" id="hall">
             <option>90 dni</option>
             <option>60 dni</option>
             <option>30 dni</option>

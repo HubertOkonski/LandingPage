@@ -47,8 +47,8 @@ function PricingBoxSm() {
         <footer className="join-apps-box">
           <p>Dołącz do zabawy już dziś!</p>
           <div className="download-images-container">
-            <img src={appStore} alt="" srcset="" />
-            <img src={googlePlay} alt="" srcset="" />
+            <img src={appStore} alt="" srcSet="" />
+            <img src={googlePlay} alt="" srcSet="" />
           </div>
         </footer>
       </div>

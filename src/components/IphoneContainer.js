@@ -3,7 +3,7 @@ import { ReactComponent as Iphone } from "./../images/Iphone.svg";
 function IphoneContainer(props) {
   return (
     <div className={`how-it-works iphone${props.number}`}>
-      <img src={props.arrow} alt="" srcset="" />
+      <img src={props.arrow} alt="" srcSet="" />
       <Iphone
         className="iphone-svg"
         style={{
