@@ -11,11 +11,9 @@ function Header(props) {
     }
   };
   const handleLogingModal = () => {
-    console.log("elo");
     props.setLogStatus(true);
   };
   const handleRegistergModal = () => {
-    console.log("elo");
     props.setRegStatus(true);
   };
   return (

@@ -4,7 +4,6 @@ import Modal from "react-bootstrap/Modal";
 function ModalContainer(props) {
   const handleClose = () => {
     props.setStatus(false);
-    console.log("hidde");
   };
   return (
     <Modal show={props.status} onHide={handleClose}>

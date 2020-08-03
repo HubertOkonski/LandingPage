@@ -8,7 +8,7 @@ import HowItWorks from "./components/HowItWorks";
 import Pricing from "./components/Pricing";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   const [regModal, setRegModalStatus] = useState(true);
   const [logModal, setLogModalStatus] = useState(true);
