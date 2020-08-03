@@ -1,5 +1,5 @@
 import React from "react";
-import Hand from "./../images/Fingers.svg";
+import Hand from "./../images/fingers.png";
 
 function Start() {
   return (
