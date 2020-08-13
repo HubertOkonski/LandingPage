@@ -282,7 +282,7 @@ body {
   span:nth-child(2) {
     font-weight: 700;
     font-size: 40px;
-    line-height: 0;
+    line-height: 20px;
   }
   p:nth-child(1) {
     font-size: 2.5rem;
@@ -606,15 +606,5 @@ body {
   padding: 1rem;
   button {
     outline: none;
-  }
-}
-@media (min-width: 1450px) {
-  .wider {
-    max-width: 1450px !important;
-  }
-}
-@media (min-width: 1500px) {
-  .narrower {
-    max-width: 1400px !important;
   }
 }
