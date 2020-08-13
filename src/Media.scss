@@ -24,6 +24,15 @@
   .iphone-svg {
     width: 225px;
   }
+  .pricing-box {
+    &:nth-child(1) {
+      .pricing-box-header {
+        span:nth-child(1) {
+          margin-left: 7rem;
+        }
+      }
+    }
+  }
 }
 @media only screen and (max-width: 1199px) {
   .hand-img-container img {
@@ -37,6 +46,25 @@
   }
 }
 @media only screen and (max-width: 1024px) {
+  .pricing-box {
+    &:nth-child(1) {
+      .pricing-box-header {
+        span:nth-child(1) {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+  @media (min-width: 1450px) {
+    .wider {
+      max-width: 1450px !important;
+    }
+  }
+  @media (min-width: 1500px) {
+    .narrower {
+      max-width: 1400px !important;
+    }
+  }
   html {
     font-size: 100%;
   }
@@ -211,5 +239,15 @@
         }
       }
     }
+  }
+}
+@media (min-width: 1499px) {
+  .wider {
+    max-width: 1450px !important;
+  }
+}
+@media (min-width: 1499px) {
+  .narrower {
+    max-width: 1400px !important;
   }
 }
